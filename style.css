@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+}
+.nav-item a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: #1F1534;
+    opacity: 0.6;
+}
+.active{
+    font-weight: bold;
+}
+/* main-section start  */
+.main-body{
+    display: flex;
+}
+.main-text{
+    margin-top: 100px;
+}
+.main-text-title{
+    font-size: 48px;
+}
+.main-text-subtitle{
+    color: #7D7987;
+}
+/* main section end  */
+/* our service start  */
+.our-service{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.border-bottom{
+    display: inline-block;
+    width: 56px;
+    content: " ";
+    height: 2px;
+    background-color: black;
+}
+.our-service-title{
+    text-align: center;
+}
+.our-services-subtitle{
+    color: black;
+    opacity: 0.6;
+}
+.card-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card{
+    background-color: #ffff;
+    width: 30%;
+    height: 300px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    padding: 25px;
+    box-sizing: border-box;
+    padding-top: 25px;
+    border-radius: 20px;
+}
+.card-img img{
+    margin-left: 15px;
+    width: 91px;
+    height: 90px;
+}
+.card-subtitle{
+    color: black;
+    opacity: 0.6;
+}
+.care{
+    padding-top: 20px;
+}
+.center{
+    justify-content: center;
+}
+.btn{
+    border: 1px solid rgba(69, 143, 246, 1);
+    border-radius: 20px;
+    background-color: #fff;
+    color: rgba(69, 143, 246, 1);
+    height: 56px;
+    width: 200px;
+    transition: all ease 0.3s;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: rgba(69, 143, 246, 1);
+    color: #fff;
+}
+/* our service section end  */
+/* healthcare section start  */
+.healthcare-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.healthcare-text{
+    padding-left: 100px;
+}
+.heathcare-text-subtitle{
+    color: #111;
+    opacity: 0.6;
+}
+.top{
+    margin-top: 20px;
+}
+/* healthcare section end  */
+/* dowload apps section start  */
+.main-dowload__apps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.main-dowload__subtitle{
+    color: #111;
+    opacity: 0.6;
+}
+.btn-image{
+    padding-left: 10px;
+    color: #ffff;
+}
+/* dowload apps section  end  */
+/* customer section start  */
+.customer-section__main{
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 50px 50px;
+    color: #fff;
+}
+.customer-section__absolute{
+    position: absolute;
+    top: 10px;
+}
+.left{
+    margin-left: 120px;
+}
+.customer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.customer-img img{
+    border-radius: 50%;
+}
+.customer-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customer-information{
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+.customer-name{
+    display: inline-block;
+}
+.customer-job{
+    display: inline-block;
+}
+.customer-opinion{
+    padding-left: 50px;
+}
+
+/* customer section end  */
+/* vector section start  */
+
+.vector-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.vector1{
+    padding-right: 50px;
+} 
+.vector2{
+    padding-left: 50px;
+}
+
+/* vector section end  */
+/* information card section start  */
+ 
+.informtion-card__section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* information card section end  */
+/* full card section start  */
+.full-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.full-card img{
+    background-size: cover;
+    width: 100%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.card1{
+    width: 30%;
+    display: inline-block;
+    border-radius: 24px;
+    position: relative;
+    height: 512px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+}
+.card1 a{
+    color: #5A98F2;
+}
+.read-more__button{
+    width: 14px;
+    height: 9px;
+    bottom: 60px;
+    right: 75px;
+    position: absolute;
+}
+/* full card section end  */
+/* footer section start  */
+
+.footer{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    height: 182px;
+    padding: 100px 0;
+    color: #fff;
+}
+.footer li, a{
+    color: #fff;
+    opacity: 0.9;
+    text-decoration: none;
+    list-style: none;
+    line-height: 38px;
+}
+.footer a:hover{
+    color: #fff;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.distance{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+/* footer section end  */
